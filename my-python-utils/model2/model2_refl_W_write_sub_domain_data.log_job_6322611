@@ -1,0 +1,87 @@
+Now using NPL virtual environment at path:
+    /glade/work/hardt/20191211_20200420
+
+Use deactivate to remove NPL from environment
+
+Writing latlon data to /glade/work/hardt/ds612/model2_latlon_coord.nc
+DONE writing output data.
+Loading REFL_10CM data.
+(4896, 10, 256, 256)
+-35.0
+82.26192
+
+Doing min/max scaling on refl
+
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.49719424514478
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_0minuteAfterHour_3D_refl_shuffled-t.nc
+DONE writing REFL_OUT.
+Loading REFL_10CM data.
+(4896, 10, 256, 256)
+-35.0
+83.30717
+
+Doing min/max scaling on refl
+
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.495472840495495
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_5minuteAfterHour_3D_refl_shuffled.nc
+DONE writing output data.
+(4896, 10, 256, 256)
+-35.0
+82.393585
+
+Doing min/max scaling on refl
+
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.473283722683846
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_10minuteAfterHour_3D_refl_shuffled.nc
+DONE writing output data.
+(4896, 10, 256, 256)
+-35.0
+81.759544
+
+Doing min/max scaling on refl
+
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.45869152946034
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_15minuteAfterHour_3D_refl_shuffled.nc
+DONE writing output data.
+W_yoffset: 386
+W_xoffset: 745
+Loading W data.
+(4896, 51, 256, 256)
+Doing min/max scaling on W
+
+np.amin(W): -14.297869
+np.percentile(W, 99.9): 1.3127318555118563
+Writing W data to /glade/work/hardt/ds612/model2_3D_W_shuffled.nc
+Done
+JobId=6322611 JobName=convert_data
+   UserId=hardt(4485) GroupId=ncar(1000) MCS_label=N/A
+   Priority=3980 Nice=0 Account=p48500047 QOS=regular
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=03:43:13 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2020-12-23T17:50:36 EligibleTime=2020-12-23T17:50:36
+   AccrueTime=2020-12-23T17:50:36
+   StartTime=2020-12-23T17:51:00 EndTime=2020-12-24T05:51:00 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2020-12-23T17:51:00
+   Partition=dav AllocNode:Sid=10.12.1.3:299798
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=casper29
+   BatchHost=casper29
+   NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=2,mem=400G,node=1,billing=402
+   Socks/Node=* NtasksPerN:B:S:C=1:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=400G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/glade/u/home/hardt/AI_scripts/my-python-utils/sbatch-convert-data.csh
+   WorkDir=/glade/u/home/hardt/AI_scripts/my-python-utils
+   StdErr=/glade/u/home/hardt/AI_scripts/my-python-utils/model2_refl_W_write_sub_domain_data.log_job_6322611
+   StdIn=/dev/null
+   StdOut=/glade/u/home/hardt/AI_scripts/my-python-utils/model2_refl_W_write_sub_domain_data.log_job_6322611
+   Power=
+   MailUser=(null) MailType=NONE
+

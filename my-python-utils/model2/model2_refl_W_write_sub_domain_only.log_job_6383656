@@ -1,0 +1,65 @@
+Now using NPL virtual environment at path:
+    /glade/work/hardt/20191211_20200420
+
+Use deactivate to remove NPL from environment
+
+Writing latlon data to /glade/work/hardt/ds612/model2_latlon_coord.nc
+DONE writing output data.
+Loading REFL_10CM data.
+(4896, 10, 256, 256)
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.49719424514478
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_2012-2015_00minuteAfterHour_3D_refl.nc
+DONE writing REFL_OUT.
+Loading REFL_10CM data.
+(4896, 10, 256, 256)
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.495472840495495
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_2012-2015_05minuteAfterHour_3D_refl.nc
+DONE writing output data.
+(4896, 10, 256, 256)
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.473283722683846
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_2012-2015_10minuteAfterHour_3D_refl.nc
+DONE writing output data.
+(4896, 10, 256, 256)
+np.amin(refl): -35.0
+np.percentile(refl, 99.99): 58.45869152946034
+Writing REFL_10CM data to /glade/work/hardt/ds612/model2_2012-2015_15minuteAfterHour_3D_refl.nc
+DONE writing output data.
+W_yoffset: 386
+W_xoffset: 745
+Loading W data.
+(4896, 51, 256, 256)
+np.amin(W): -14.297869
+np.percentile(W, 99.9): 1.3127318555118563
+Writing W data to /glade/work/hardt/ds612/model2_2012-2015_3D_W.nc
+Done
+JobId=6383656 JobName=convert_data
+   UserId=hardt(4485) GroupId=ncar(1000) MCS_label=N/A
+   Priority=4157 Nice=0 Account=p48500047 QOS=regular
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=04:04:39 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2021-01-14T06:30:11 EligibleTime=2021-01-14T06:30:11
+   AccrueTime=2021-01-14T06:30:11
+   StartTime=2021-01-14T06:30:11 EndTime=2021-01-14T18:30:11 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2021-01-14T06:30:11
+   Partition=dav AllocNode:Sid=10.12.1.2:5480
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=casper29
+   BatchHost=casper29
+   NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=2,mem=400G,node=1,billing=402
+   Socks/Node=* NtasksPerN:B:S:C=1:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=400G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/glade/u/home/hardt/AI_scripts/my-python-utils/sbatch-model2-subdomain-only.csh
+   WorkDir=/glade/u/home/hardt/AI_scripts/my-python-utils
+   StdErr=/glade/u/home/hardt/AI_scripts/my-python-utils/model2_refl_W_write_sub_domain_only.log_job_6383656
+   StdIn=/dev/null
+   StdOut=/glade/u/home/hardt/AI_scripts/my-python-utils/model2_refl_W_write_sub_domain_only.log_job_6383656
+   Power=
+   MailUser=(null) MailType=NONE
+

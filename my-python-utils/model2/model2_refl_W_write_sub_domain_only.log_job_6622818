@@ -1,0 +1,8 @@
+Now using NPL virtual environment at path:
+    /glade/work/hardt/20191211_20200420
+
+Use deactivate to remove NPL from environment
+
+slurmstepd: error: *** STEP 6622818.0 ON casper27 CANCELLED AT 2021-03-08T19:23:40 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 6622818 ON casper27 CANCELLED AT 2021-03-08T19:23:40 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

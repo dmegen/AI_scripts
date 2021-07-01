@@ -1,0 +1,18 @@
+# Model
+model:
+  activation: selu
+  dense_units: 64
+  dropout: 0.20
+
+# Optimizer
+optim_params:
+  optimizer: Nadam # SGD, Adam
+  init_learning_rate: 0.007
+
+# Training
+training:
+  batch_size: 64
+  early_stopping: 20
+  n_epochs: 100
+  shuffle: True
+  save_every: 20

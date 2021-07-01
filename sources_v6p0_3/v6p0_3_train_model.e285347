@@ -1,0 +1,72 @@
+2021-05-20 13:24:36.929152: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+WARNING: There is a new version of neptune-client 0.9.1 (installed: 0.4.133).
+2021-05-20 13:26:42.450168: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-05-20 13:26:42.488570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-05-20 13:26:42.488647: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-05-20 13:26:42.508890: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-05-20 13:26:42.525406: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-05-20 13:26:42.532017: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-05-20 13:26:42.561172: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-05-20 13:26:42.570476: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-05-20 13:26:42.638145: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-05-20 13:26:42.641939: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-05-20 13:26:42.645394: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-05-20 13:26:42.653145: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2600000000 Hz
+2021-05-20 13:26:42.653309: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x70450d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-05-20 13:26:42.653326: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-05-20 13:26:42.780899: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x6d1e070 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-05-20 13:26:42.780964: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+2021-05-20 13:26:42.803491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: Tesla V100-SXM2-32GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-05-20 13:26:42.803558: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-05-20 13:26:42.803617: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-05-20 13:26:42.803631: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-05-20 13:26:42.803644: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-05-20 13:26:42.803658: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-05-20 13:26:42.803671: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-05-20 13:26:42.806195: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-05-20 13:26:42.809603: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-05-20 13:26:42.809663: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-05-20 13:26:44.750856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-05-20 13:26:44.750929: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 
+2021-05-20 13:26:44.750939: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N 
+2021-05-20 13:26:44.754727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30132 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:3d:00.0, compute capability: 7.0)
+2021-05-20 13:26:55.496261: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+2021-05-20 13:26:55.496411: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1391] Profiler found 1 GPUs
+2021-05-20 13:26:55.499662: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcupti.so.10.1'; dlerror: libcupti.so.10.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /glade/u/apps/dav/opt/cuda/10.1/tensorrt/lib:/glade/u/apps/dav/opt/cuda/10.1/lib:/glade/u/apps/dav/opt/cuda/10.1/lib64:/glade/u/apps/dav/opt/openmpi/4.0.3/intel/19.0.5/lib:/glade/u/apps/opt/intel/2019u5/compilers_and_libraries/linux/lib/intel64:/glade/u/apps/dav/opt/usr/lib64
+2021-05-20 13:26:55.502595: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcupti.so'; dlerror: libcupti.so: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /glade/u/apps/dav/opt/cuda/10.1/tensorrt/lib:/glade/u/apps/dav/opt/cuda/10.1/lib:/glade/u/apps/dav/opt/cuda/10.1/lib64:/glade/u/apps/dav/opt/openmpi/4.0.3/intel/19.0.5/lib:/glade/u/apps/opt/intel/2019u5/compilers_and_libraries/linux/lib/intel64:/glade/u/apps/dav/opt/usr/lib64
+2021-05-20 13:26:55.502640: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1441] function cupti_interface_->Subscribe( &subscriber_, (CUpti_CallbackFunc)ApiCallback, this)failed with error CUPTI could not be loaded or symbol could not be found.
+2021-05-20 13:27:14.353043: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-05-20 13:27:16.377216: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-05-20 13:27:21.822052: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+2021-05-20 13:27:21.822166: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1441] function cupti_interface_->Subscribe( &subscriber_, (CUpti_CallbackFunc)ApiCallback, this)failed with error CUPTI could not be loaded or symbol could not be found.
+WARNING:tensorflow:From /glade/work/hardt/20191211_20200420/lib/python3.7/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+2021-05-20 13:27:22.642301: I tensorflow/core/profiler/internal/gpu/device_tracer.cc:223]  GpuTracer has collected 0 callback api events and 0 activity events. 
+2021-05-20 13:27:22.654589: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22
+2021-05-20 13:27:22.664210: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for trace.json.gz to /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22/casper31.trace.json.gz
+2021-05-20 13:27:22.685199: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22
+2021-05-20 13:27:22.695987: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for memory_profile.json.gz to /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22/casper31.memory_profile.json.gz
+2021-05-20 13:27:22.703713: I tensorflow/python/profiler/internal/profiler_wrapper.cc:111] Creating directory: /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22Dumped tool data for xplane.pb to /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22/casper31.xplane.pb
+Dumped tool data for overview_page.pb to /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22/casper31.overview_page.pb
+Dumped tool data for input_pipeline.pb to /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22/casper31.input_pipeline.pb
+Dumped tool data for tensorflow_stats.pb to /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22/casper31.tensorflow_stats.pb
+Dumped tool data for kernel_stats.pb to /glade/work/hardt/models/unet_v6p0/logs/fit/trained_model_feature-00minAfterHour_refl_2021_05_20_13_24.h5/train/plugins/profile/2021_05_20_13_27_22/casper31.kernel_stats.pb
+
+Experiencing connection interruptions. Reestablishing communication with Neptune.
+Failed to send channel value.
+Traceback (most recent call last):
+  File "/glade/work/hardt/20191211_20200420/lib/python3.7/site-packages/neptune/internal/channels/channels_values_sender.py", line 156, in _send_values
+    self._experiment._send_channels_values(channels_with_values)
+  File "/glade/work/hardt/20191211_20200420/lib/python3.7/site-packages/neptune/experiments.py", line 1167, in _send_channels_values
+    self._backend.send_channels_values(self, channels_with_values)
+  File "/glade/work/hardt/20191211_20200420/lib/python3.7/site-packages/neptune/utils.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/glade/work/hardt/20191211_20200420/lib/python3.7/site-packages/neptune/internal/backends/hosted_neptune_backend.py", line 574, in send_channels_values
+    raise ChannelsValuesSendBatchError(experiment.id, batch_errors)
+neptune.api_exceptions.ChannelsValuesSendBatchError: Received batch errors sending channels' values to experiment TOFFSET-80. Cause: Error(code=400, message='X-coordinates must be strictly increasing for channel: d4ee85e7-ed1b-48fe-bbb0-b785c5b7e159. Invalid point: InputChannelValue(timestamp=2021-05-20T21:35:51.235Z, x=7851447.143999999, numericValue=null, textVa', type=None) (metricId: 'd4ee85e7-ed1b-48fe-bbb0-b785c5b7e159', x: 7851447.143999999) Skipping 2 values.

@@ -1,0 +1,124 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Now using NPL virtual environment at path:
+    /glade/work/hardt/20191211_20200420
+
+Use deactivate to remove NPL from environment
+
+Processing year 2014 and field QVAPOR
+Loading QVAPOR data.
+VAR.shape: (1224, 50, 256, 256)
+np.amin(VAR): 0.0
+np.percentile(VAR, 99.9): 0.019534096121788025
+Writing QVAPOR data to /glade/work/hardt/data/model2/v1/model2-v1_2014_3D_QVAPOR.nc
+Done processing year 2014 and field QVAPOR
+
+Processing year 2014 and field U
+Loading U data.
+VAR.shape: (1224, 50, 256, 256)
+np.amin(VAR): -46.880993
+np.percentile(VAR, 99.9): 37.462398529052734
+Writing U data to /glade/work/hardt/data/model2/v1/model2-v1_2014_3D_U.nc
+Done processing year 2014 and field U
+
+Processing year 2014 and field V
+Loading V data.
+VAR.shape: (1224, 50, 256, 256)
+np.amin(VAR): -51.754055
+np.percentile(VAR, 99.9): 23.20012245369071
+Writing V data to /glade/work/hardt/data/model2/v1/model2-v1_2014_3D_V.nc
+Done processing year 2014 and field V
+
+Processing year 2015 and field QVAPOR
+Loading QVAPOR data.
+VAR.shape: (1224, 50, 256, 256)
+np.amin(VAR): 0.0
+np.percentile(VAR, 99.9): 0.018338832633570945
+Writing QVAPOR data to /glade/work/hardt/data/model2/v1/model2-v1_2015_3D_QVAPOR.nc
+Done processing year 2015 and field QVAPOR
+
+Processing year 2015 and field U
+Loading U data.
+VAR.shape: (1224, 50, 256, 256)
+np.amin(VAR): -42.32389
+np.percentile(VAR, 99.9): 47.51423263549805
+Writing U data to /glade/work/hardt/data/model2/v1/model2-v1_2015_3D_U.nc
+Done processing year 2015 and field U
+
+Processing year 2015 and field V
+Loading V data.
+VAR.shape: (1224, 50, 256, 256)
+np.amin(VAR): -59.2846
+np.percentile(VAR, 99.9): 28.89035568428153
+Writing V data to /glade/work/hardt/data/model2/v1/model2-v1_2015_3D_V.nc
+Done processing year 2015 and field V
+
+Job Id: 511197.casper-pbs
+    Job_Name = PBS_job_sub_domain_data
+    Job_Owner = hardt@casper-login1.hpc.ucar.edu
+    resources_used.cpupercent = 92
+    resources_used.cput = 06:33:46
+    resources_used.mem = 52049012kb
+    resources_used.ncpus = 1
+    resources_used.vmem = 53348352kb
+    resources_used.walltime = 07:06:48
+    job_state = R
+    queue = htc
+    server = casper-pbs
+    Account_Name = P48500047
+    Checkpoint = u
+    ctime = Wed Jun 30 10:24:14 2021
+    Error_Path = casper-login1.hpc.ucar.edu:/glade/u/home/hardt/AI_scripts/my-p
+	ython-utils/model2/PBS_job_sub_domain_data.e511197
+    exec_host = crhtc21/0
+    exec_vnode = (crhtc21:ncpus=1:mem=104857600kb:ngpus=0)
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = oed
+    Mail_Points = a
+    mtime = Wed Jun 30 17:31:02 2021
+    Output_Path = casper-login1.hpc.ucar.edu:/glade/u/home/hardt/AI_scripts/my-
+	python-utils/model2/PBS_job_sub_domain_data.o511197
+    Priority = 0
+    qtime = Wed Jun 30 10:24:14 2021
+    Rerunable = True
+    Resource_List.mem = 100gb
+    Resource_List.ncpus = 1
+    Resource_List.ngpus = 0
+    Resource_List.nodect = 1
+    Resource_List.place = scatter
+    Resource_List.select = 1:ncpus=1:mem=100GB
+    Resource_List.walltime = 08:00:00
+    stime = Wed Jun 30 10:24:14 2021
+    session_id = 92176
+    jobdir = /glade/u/home/hardt
+    substate = 42
+    Variable_List = PBS_O_HOME=/glade/u/home/hardt,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_LOGNAME=hardt,
+	PBS_O_PATH=/glade/work/hardt/20191211_20200420/bin:/glade/u/home/hardt
+	/bin:/usr/lib64/qt-3.3/bin:/glade/u/apps/dav/opt/cuda/10.1/bin:/glade/u
+	/apps/dav/opt/netcdf/4.7.3/intel/19.0.5/bin:/glade/u/apps/dav/opt/ncarc
+	ompilers/0.5.0/intel/19.0.5/mpi:/glade/u/apps/dav/opt/openmpi/4.0.3/int
+	el/19.0.5/bin:/glade/u/apps/dav/opt/ncarcompilers/0.5.0/intel/19.0.5:/g
+	lade/u/apps/opt/intel/2019u5/vtune_amplifier/bin64:/glade/u/apps/opt/in
+	tel/2019u5/inspector/bin64:/glade/u/apps/opt/intel/2019u5/advisor/bin64
+	:/glade/u/apps/opt/intel/2019u5/compilers_and_libraries/linux/bin/intel
+	64:/glade/u/apps/opt/vncmgr:/glade/u/apps/opt/globus-utils:/glade/u/app
+	s/dav/opt/usr/bin:/glade/u/apps/dav/opt/lmod/8.1.7/bin:/usr/local/bin:/
+	usr/bin:/usr/local/sbin:/usr/sbin:/usr/lpp/mmfs/bin:/opt/ibutils/bin:/n
+	car/opt/hpss/hpss/bin:/glade/u/apps/dav/opt/usr/bin/python3:/usr/local/
+	bin:/usr/bin:/sbin:/bin:/opt/pbs/bin,PBS_O_MAIL=/var/spool/mail/hardt,
+	PBS_O_SHELL=/bin/tcsh,
+	PBS_O_WORKDIR=/glade/u/home/hardt/AI_scripts/my-python-utils/model2,
+	PBS_O_SYSTEM=Linux,PBS_O_QUEUE=casper,
+	PBS_O_HOST=casper-login1.hpc.ucar.edu
+    comment = Job run at Wed Jun 30 at 10:24 on (crhtc21:ncpus=1:mem=104857600k
+	b:ngpus=0)
+    etime = Wed Jun 30 10:24:14 2021
+    umask = 22
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = qsub-model2-v1-subdomain.csh
+    project = _pbs_project_default
+    Submit_Host = casper-login1.hpc.ucar.edu
+
